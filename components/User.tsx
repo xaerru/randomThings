@@ -48,7 +48,7 @@ export default function User(props: UserProps): JSX.Element {
         <div className="bg-green-200 p-2 shadow-xl flex flex-col m-3 space-y-1">
           <img
             src={props.user.picture.large}
-            className="rounded-full w-48 ml-16"
+            className="rounded-full self-center"
           />
           <div className="text-3xl font-mono font-semibold self-center">
             {getUsername(props.user)}
