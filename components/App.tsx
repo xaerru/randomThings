@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import Head from "next/head";
 import { fetchData, getUsername, UserInfo } from "../utils/userData";
 import User from "./User";
 import Header from "./Header";
@@ -20,14 +21,16 @@ export default function App(): JSX.Element {
   };
   return (
     <div>
-      <title>Random Users</title>
+      <Head>
+        <title>Random Users</title>
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+          integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+          crossOrigin="anonymous"
+        />
+      </Head>
       <Header />
-      <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
-        crossOrigin="anonymous"
-      />
       <InfiniteScroll
         dataLength={userInfos.length}
         next={getOneMore}
