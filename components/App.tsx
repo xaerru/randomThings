@@ -16,7 +16,7 @@ export default function App(): JSX.Element {
       fetchData().then((data) => {
         setUserInfos(userInfos.concat(data.results));
       });
-    }, 2000);
+    }, 500);
   };
   return (
     <div>
