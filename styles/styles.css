@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap");
+
+.full-div {
+  height: 100vh;
+  text-align: center;
+  background: #a7f3d0;
+}
+
+.title {
+  font-family: "Ubuntu", sans-serif;
+  padding: 250px;
+  font-size: 100px;
+  color: black;
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-top: 16px solid #a7f3d0;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  margin: 10px auto;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
