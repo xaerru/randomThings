@@ -1,4 +1,4 @@
-import { UserInfo, getUsername, getAddress } from "../../utils/userData";
+import { UserInfo, getUsername, getAddress } from "../utils/userData";
 
 interface UserProps {
   user: UserInfo;

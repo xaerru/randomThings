@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { fetchData, getUsername, UserInfo } from "../../utils/userData";
+import { fetchData, getUsername, UserInfo } from "../utils/userData";
 import User from "./User";
 import Header from "./Header";
 import InfiniteScroll from "react-infinite-scroll-component";
