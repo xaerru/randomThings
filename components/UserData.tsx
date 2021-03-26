@@ -1,6 +1,6 @@
 interface UserDataProps {
   title: string;
-  content: string;
+  content: string | number;
 }
 
 export default function UserData(props: UserDataProps): JSX.Element {
