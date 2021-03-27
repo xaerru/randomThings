@@ -40,13 +40,12 @@ export const getAddress = (user: UserInfo): string => {
   return `${number} ${name} Street, ${city}, ${state}, ${country}`;
 };
 
-export const fetchData = () => {
-  return axios
-    .get("https://randomuser.me/api")
-    .then(({ data }) => {
-      return data;
-    })
-    .catch((err) => {
-      console.log(err);
-    });
+export const fetchData = async () => {
+  try {
+    const { data } = await axios
+      .get("https://randomuser.me/api");
+    return data;
+  } catch (err) {
+    console.log(err);
+  }
 };
