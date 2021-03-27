@@ -1,4 +1,5 @@
-import { UserInfo, getUsername, getAddress } from "../utils/userData";
+import { getUsername, getAddress } from "../utils/userData";
+import { UserInfo } from "../utils/userInterface";
 import { BrowserView, MobileView } from "react-device-detect";
 import UserData from "./UserData";
 
