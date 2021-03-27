@@ -7,11 +7,6 @@ import InfiniteScroll from "react-infinite-scroll-component";
 
 export default function App(): JSX.Element {
   const [userInfos, setUserInfos] = useState<any>([]);
-  useEffect(() => {
-    fetchData().then((data) => {
-      setUserInfos(data.results);
-    });
-  }, []);
   const getOneMore = () => {
     setTimeout(() => {
       fetchData().then((data) => {
