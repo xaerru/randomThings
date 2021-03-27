@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
+import InfiniteScroll from "react-infinite-scroll-component";
 import Head from "next/head";
-import { fetchData, getUsername, UserInfo } from "../utils/userData";
+import { fetchData, getUsername } from "../utils/userData";
+import { UserInfo } from "../utils/userInterface";
 import User from "./User";
 import Header from "./Header";
-import InfiniteScroll from "react-infinite-scroll-component";
 
 export default function App(): JSX.Element {
   const [userInfos, setUserInfos] = useState<any>([]);

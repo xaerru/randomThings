@@ -1,5 +1,5 @@
 import axios from "axios";
-import { UserInfo } from "./userInterface"
+import { UserInfo } from "./userInterface";
 
 export const getUsername = (user: UserInfo): string => {
   const {
