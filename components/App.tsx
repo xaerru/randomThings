@@ -12,7 +12,7 @@ export default function App(): JSX.Element {
       fetchData().then((data) => {
         setUserInfos(userInfos.concat(data.results));
       });
-    }, 500);
+    }, 250);
   };
   return (
     <div>
