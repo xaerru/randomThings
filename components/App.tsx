@@ -8,11 +8,6 @@ import Header from "./Header";
 
 export default function App(): JSX.Element {
   const [userInfos, setUserInfos] = useState<any>([]);
-  const getOneMore = () => {
-    fetchData().then((data) => {
-      setUserInfos(userInfos.concat(data.results));
-    });
-  };
   return (
     <div>
       <Head>
@@ -21,7 +16,11 @@ export default function App(): JSX.Element {
       <Header />
       <InfiniteScroll
         dataLength={userInfos.length}
-        next={getOneMore}
+        next={(): void => {
+          fetchData().then((data) => {
+            setUserInfos(userInfos.concat(data.results));
+          });
+        }}
         hasMore={true}
         loader={<div className="loader"></div>}
       >
