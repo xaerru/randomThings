@@ -9,11 +9,9 @@ import Header from "./Header";
 export default function App(): JSX.Element {
   const [userInfos, setUserInfos] = useState<any>([]);
   const getOneMore = () => {
-    setTimeout(() => {
-      fetchData().then((data) => {
-        setUserInfos(userInfos.concat(data.results));
-      });
-    }, 250);
+    fetchData().then((data) => {
+      setUserInfos(userInfos.concat(data.results));
+    });
   };
   return (
     <div>
