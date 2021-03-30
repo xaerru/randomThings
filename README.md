@@ -27,5 +27,3 @@ npm run dev
 # or
 yarn dev
 ```
-
-### It should be running on localhost:3000
