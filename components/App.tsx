@@ -7,7 +7,7 @@ import User from "./User";
 import Header from "./Header";
 
 export default function App(): JSX.Element {
-  const [userInfos, setUserInfos] = useState<any>([]);
+  const [userInfos, setUserInfos] = useState<UserInfo[]>([]);
   return (
     <div>
       <Head>
