@@ -6,10 +6,18 @@
 git clone https://github.com/gauravsingh5/randomUsers
 ```
 
+## Go to folder
+
+```bash
+cd randomUsers
+```
+
 ## Install all the dependencies
 
 ```bash
 npm install
+# or
+yarn
 ```
 
 ## Run the development server
@@ -19,3 +27,5 @@ npm run dev
 # or
 yarn dev
 ```
+
+### It should be running on localhost:3000
