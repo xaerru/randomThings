@@ -22,7 +22,7 @@ export default function App(): JSX.Element {
           });
         }}
         hasMore={true}
-        loader={<div className="loader"></div>}
+        loader={<div className="loader" />}
       >
         {userInfos.map((user: UserInfo, idx: number) => (
           <div key={idx}>
