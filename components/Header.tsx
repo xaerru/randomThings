@@ -1,4 +1,4 @@
-export default function Header() {
+export const Header = (): JSX.Element => {
   return (
     <>
       <div className="bg-green-200 flex items-center justify-center h-screen">
@@ -11,4 +11,4 @@ export default function Header() {
       </div>
     </>
   );
-}
+};

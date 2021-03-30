@@ -1,7 +1,7 @@
 import { BrowserView, MobileView } from "react-device-detect";
-import UserData from "./UserData";
+import { UserData } from "./UserData";
 
-export default function User({ user }): JSX.Element {
+export const User = ({ user }): JSX.Element => {
   return (
     <>
       <BrowserView>
@@ -20,4 +20,4 @@ export default function User({ user }): JSX.Element {
       </MobileView>
     </>
   );
-}
+};

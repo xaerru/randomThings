@@ -3,10 +3,10 @@ import InfiniteScroll from "react-infinite-scroll-component";
 import Head from "next/head";
 import { fetchData } from "../utils/userData";
 import { UserInfo } from "../utils/userInterface";
-import User from "./User";
-import Header from "./Header";
+import { User } from "./User";
+import { Header } from "./Header";
 
-export default function App(): JSX.Element {
+export const App = (): JSX.Element => {
   const [userInfos, setUserInfos] = useState<UserInfo[]>([]);
   return (
     <div>
@@ -32,4 +32,4 @@ export default function App(): JSX.Element {
       </InfiniteScroll>
     </div>
   );
-}
+};

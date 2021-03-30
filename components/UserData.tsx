@@ -1,7 +1,7 @@
-import UserDataItem from "./UserDataItem";
+import { UserDataItem } from "./UserDataItem";
 import { getUsername, getAddress } from "../utils/userData";
 
-export default function UserData({ user }): JSX.Element {
+export const UserData = ({ user }): JSX.Element => {
   return (
     <div>
       <div className="text-3xl font-mono font-semibold">
@@ -13,4 +13,4 @@ export default function UserData({ user }): JSX.Element {
       <UserDataItem title="Address" content={getAddress(user)} />
     </div>
   );
-}
+};
