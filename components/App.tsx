@@ -17,8 +17,8 @@ export const App = (): JSX.Element => {
       <InfiniteScroll
         dataLength={userInfos.length}
         next={(): void => {
-          fetchData().then((data) => {
-            setUserInfos(userInfos.concat(data.results));
+          fetchData().then(({ results }) => {
+            setUserInfos(userInfos.concat(results));
           });
         }}
         hasMore={true}
