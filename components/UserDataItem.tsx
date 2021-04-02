@@ -1,4 +1,12 @@
-export const UserDataItem = ({ title, content }): JSX.Element => {
+interface UserDataItemProps {
+  title: string;
+  content: string;
+}
+
+export const UserDataItem = ({
+  title,
+  content,
+}: UserDataItemProps): JSX.Element => {
   return (
     <div className="flex m-3 space-x-1">
       <div className="flex font-mono">{title}</div>
