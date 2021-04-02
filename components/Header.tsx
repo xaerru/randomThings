@@ -6,9 +6,7 @@ export const Header = (): JSX.Element => {
           Scroll down for random user profiles.
         </div>
       </div>
-      <div>
-        <br />
-      </div>
+      <br />
     </>
   );
 };
