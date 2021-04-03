@@ -25,7 +25,7 @@ export const App = (): JSX.Element => {
         loader={<div className="loader" />}
         style={{ overflow: "hidden" }}
       >
-        {userInfos.map((user: UserInfo, idx: number) => (
+        {userInfos.map((user: UserInfo) => (
           <User user={user} />
         ))}
       </InfiniteScroll>
