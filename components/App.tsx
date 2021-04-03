@@ -26,9 +26,7 @@ export const App = (): JSX.Element => {
         style={{ overflow: "hidden" }}
       >
         {userInfos.map((user: UserInfo, idx: number) => (
-          <div key={idx}>
-            <User user={user} />
-          </div>
+          <User user={user} />
         ))}
       </InfiniteScroll>
     </div>
