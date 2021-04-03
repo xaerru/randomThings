@@ -21,7 +21,7 @@ export const App = (): JSX.Element => {
             setUserInfos(userInfos.concat(results));
           });
         }}
-        hasMore={true}
+        hasMore
         loader={<div className="loader" />}
         style={{ overflow: "hidden" }}
       >
