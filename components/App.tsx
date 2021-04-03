@@ -23,6 +23,7 @@ export const App = (): JSX.Element => {
         }}
         hasMore={true}
         loader={<div className="loader" />}
+        style={{ overflow: "hidden" }}
       >
         {userInfos.map((user: UserInfo, idx: number) => (
           <div key={idx}>
