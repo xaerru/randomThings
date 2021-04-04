@@ -12,6 +12,7 @@ export const App = (): JSX.Element => {
     <div>
       <Head>
         <title>Random Users</title>
+        <meta charSet="utf-8" />
       </Head>
       <Header />
       <InfiniteScroll
