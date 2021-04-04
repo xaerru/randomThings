@@ -14,7 +14,7 @@ export const UserApp = (): JSX.Element => {
         <title>Random Users</title>
         <meta charSet="utf-8" />
       </Head>
-      <Header />
+      <Header text="Scroll down for random user profiles." />
       <InfiniteScroll
         dataLength={userInfos.length}
         next={(): void => {
