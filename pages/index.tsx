@@ -7,8 +7,13 @@ export default function Home(): JSX.Element {
       <Head>
         <title>Home</title>
       </Head>
-      <div className="bg-green-200 flex flex-wrap justify-center items-center h-screen space-x-20">
-        <Card text="Random Users" href="/users" />
+      <div className="bg-green-200 h-screen">
+        <div className="text-center text-7xl font-mono font-semibold p-20">
+          Click on what you want to see.
+        </div>
+        <div className="flex items-center justify-center">
+          <Card text="User Profiles" href="/users" />
+        </div>
       </div>
     </>
   );
