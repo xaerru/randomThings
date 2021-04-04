@@ -1,4 +1,4 @@
-# Random User Generator
+# Random Things
 
 ## Clone the repository
 
