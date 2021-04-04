@@ -3,13 +3,13 @@
 ## Clone the repository
 
 ```bash
-git clone https://github.com/gauravsingh5/randomUsers
+git clone https://github.com/gauravsingh5/randomThings
 ```
 
 ## Go to folder
 
 ```bash
-cd randomUsers
+cd randomThings
 ```
 
 ## Install all the dependencies
