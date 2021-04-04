@@ -21,3 +21,7 @@
     transform: rotate(360deg);
   }
 }
+
+.card:hover {
+  @apply bg-green-400;
+}
