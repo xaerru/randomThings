@@ -1,5 +1,5 @@
 {
-  "name": "hello-next",
+  "name": "random_things",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -23,5 +23,8 @@
     "postcss": "^8.2.8",
     "tailwindcss": "^2.0.4",
     "typescript": "^4.2.3"
-  }
+  },
+  "author": "Gauravsingh Sisodia",
+  "license": "MIT",
+  "homepage": "https://github.com/gauravsingh5/randomThings"
 }
