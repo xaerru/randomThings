@@ -1,24 +1,26 @@
 # Random Things
 
-## Clone the repository
+## Installation
+
+Clone the project:
 
 ```bash
 git clone https://github.com/gauravsingh5/randomThings
 ```
 
-## Go to folder
+Move to the project directory
 
 ```bash
 cd randomThings
 ```
 
-## Install all the dependencies
+Install it's dependecies
 
 ```bash
 npm install
 ```
 
-## Run the development server
+To start the dev API server run the following command:
 
 ```bash
 npm run dev
