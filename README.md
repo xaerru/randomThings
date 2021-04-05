@@ -20,8 +20,10 @@ Install it's dependecies
 npm install
 ```
 
-To start the dev API server run the following command:
+To start the dev server run the following command:
 
 ```bash
 npm run dev
 ```
+
+Navigate to [localhost:3000](http://localhost:3000)
