@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "docker": "docker build -t random_things . && docker run -p 3000:3000 random_things"
   },
   "dependencies": {
     "axios": "^0.21.1",
