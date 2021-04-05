@@ -27,3 +27,11 @@ npm run dev
 ```
 
 Navigate to [localhost:3000](http://localhost:3000)
+
+## Docker
+
+```bash
+npm run docker
+```
+
+Navigate to [localhost:3000](http://localhost:3000)
