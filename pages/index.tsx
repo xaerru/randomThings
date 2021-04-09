@@ -13,7 +13,7 @@ export default function Home(): JSX.Element {
         </div>
         <div className="flex justify-center space-x-8 cursor-pointer">
           <div>
-          <Card text="User Profiles" href="/users" />
+            <Card text="User Profiles" href="/users" />
           </div>
         </div>
       </div>
