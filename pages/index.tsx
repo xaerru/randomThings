@@ -11,8 +11,10 @@ export default function Home(): JSX.Element {
         <div className="text-center text-7xl font-mono font-semibold p-20">
           Click on what you want to see.
         </div>
-        <div className="flex items-center justify-center">
+        <div className="flex justify-center space-x-8 cursor-pointer">
+          <div>
           <Card text="User Profiles" href="/users" />
+          </div>
         </div>
       </div>
     </>
