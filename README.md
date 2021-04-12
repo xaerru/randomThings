@@ -14,7 +14,7 @@ Move to the project directory
 cd randomThings
 ```
 
-Install the dependecies
+Install the dependencies
 
 ```bash
 npm install
