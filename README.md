@@ -17,13 +17,13 @@ cd randomThings
 Install the dependencies
 
 ```bash
-npm install
+yarn
 ```
 
 To start the dev server run the following command:
 
 ```bash
-npm run dev
+yarn dev
 ```
 
 Navigate to [localhost:3000](http://localhost:3000)
