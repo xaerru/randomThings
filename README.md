@@ -31,6 +31,8 @@ Navigate to [localhost:3000](http://localhost:3000)
 ## Docker
 
 ```bash
+docker build -t random_things . && docker run -p 3000:3000 random_things
+# or
 npm run docker
 ```
 
