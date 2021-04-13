@@ -20,7 +20,7 @@ Install the dependencies
 yarn install
 ```
 
-To start the dev server run the following command:
+To start the development server run the following command:
 
 ```bash
 yarn dev
