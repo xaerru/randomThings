@@ -17,7 +17,7 @@ cd randomThings
 Install the dependencies
 
 ```bash
-yarn
+yarn install
 ```
 
 To start the dev server run the following command:
