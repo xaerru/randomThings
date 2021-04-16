@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { Card } from "../components/Card";
 
-export default (): JSX.Element => {
+export default function Home(): JSX.Element {
   return (
     <>
       <Head>
@@ -19,4 +19,4 @@ export default (): JSX.Element => {
       </div>
     </>
   );
-};
+}
