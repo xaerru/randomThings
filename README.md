@@ -1,5 +1,9 @@
 # Random Things
 
+## View Live
+
+Check out the hosted version [here](https://random-users-tau.vercel.app/).
+
 ## Installation
 
 Clone the project:
