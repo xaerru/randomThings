@@ -9,7 +9,7 @@ Check out the hosted version [here](https://random-users-tau.vercel.app/).
 Clone the project:
 
 ```bash
-git clone https://github.com/grvxs/randomThings
+git clone https://github.com/grvxs/randomThings.git
 ```
 
 Move to the project directory
