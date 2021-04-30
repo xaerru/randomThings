@@ -1,15 +1,13 @@
-# Dockerfile
-
-# base image
 FROM node:latest
 
-# copy all the files
 COPY . .
 
-# install dependencies
-RUN npm install
+RUN npm install -g yarn
 
-# start app
-RUN npm run build
+RUN yarn
+
+RUN yarn build
+
 EXPOSE 3000
-CMD npm run start
+
+CMD yarn start
