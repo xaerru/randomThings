@@ -12,13 +12,13 @@ Clone the project:
 git clone https://github.com/grvxs/randomThings.git
 ```
 
-Move to the project directory
+Move to the project directory:
 
 ```bash
 cd randomThings
 ```
 
-Install the dependencies
+Install the dependencies:
 
 ```bash
 yarn install
@@ -30,7 +30,7 @@ To start the development server run the following command:
 yarn dev
 ```
 
-Navigate to [localhost:3000](http://localhost:3000)
+Navigate to [localhost:3000](http://localhost:3000).
 
 ## Docker
 
@@ -40,4 +40,4 @@ docker build -t random_things . && docker run -p 3000:3000 random_things
 yarn docker
 ```
 
-Navigate to [localhost:3000](http://localhost:3000)
+Navigate to [localhost:3000](http://localhost:3000).
